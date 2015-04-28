@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="150.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.RootLayoutController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="Help" layoutX="317.0" layoutY="75.0" mnemonicParsing="false" onAction="#helpEvent" prefHeight="31.0" prefWidth="70.0" text="Help" AnchorPane.bottomAnchor="46.0" AnchorPane.leftAnchor="317.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="75.0" />
+            <PasswordField fx:id="Password" layoutX="44.0" layoutY="56.0" prefHeight="37.0" prefWidth="257.0" AnchorPane.bottomAnchor="57.0" AnchorPane.leftAnchor="44.0" AnchorPane.rightAnchor="99.0" AnchorPane.topAnchor="56.0" />
+            <Button fx:id="OK" layoutX="317.0" layoutY="42.0" mnemonicParsing="false" onAction="#okEvent" prefHeight="29.0" prefWidth="69.0" text="OK" AnchorPane.bottomAnchor="79.0" AnchorPane.leftAnchor="317.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="42.0" />
+            <Label layoutX="53.0" layoutY="34.0" prefHeight="17.0" prefWidth="107.0" text="Enter Password:" AnchorPane.bottomAnchor="99.0" AnchorPane.leftAnchor="53.0" AnchorPane.rightAnchor="240.0" AnchorPane.topAnchor="34.0" />
+            <Label fx:id="message" layoutX="53.0" layoutY="111.0" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
